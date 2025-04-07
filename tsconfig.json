@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/privacy-policy/page.jsx", "lib/api.js", "lib/data.js", "lib/db.ts", "lib/utils.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/privacy-policy/page.jsx", "lib/api.js", "lib/data.js", "lib/db.ts", "lib/utils.ts", "app/search/loading.tsx", "hooks/use-toast.js", "app/news/[id]/page.jsx", "components/footer.tsx", "app/search/page.jsx"],
   "exclude": ["node_modules"]
 }

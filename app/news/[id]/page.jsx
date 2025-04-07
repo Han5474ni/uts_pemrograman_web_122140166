@@ -5,8 +5,17 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowLeft, Clock, User, ExternalLink } from "lucide-react"
 
-export default async function NewsDetailPage({ params }: { params: { id: string } }) {
-  const newsItem = await getNewsById(Number.parseInt(params.id))
+export default async function NewsDetailPage(props) {
+  // Tunggu props jika perlu, untuk menghindari akses properti dari promise
+  const { params } = await props
+
+  // Pastikan id valid
+  const id = Number(params.id)
+  if (isNaN(id)) {
+    notFound()
+  }
+
+  const newsItem = await getNewsById(id)
 
   if (!newsItem) {
     notFound()
@@ -59,7 +68,6 @@ export default async function NewsDetailPage({ params }: { params: { id: string 
             </p>
           ))}
 
-          {/* Show truncated content message if content ends with [...] or [+X chars] */}
           {(newsItem.content.endsWith("[...]") || /\[\+\d+ chars\]$/.test(newsItem.content)) && (
             <div className="mt-8 p-4 bg-gray-50 rounded-lg">
               <p className="text-gray-700">
@@ -83,4 +91,3 @@ export default async function NewsDetailPage({ params }: { params: { id: string 
     </main>
   )
 }
-

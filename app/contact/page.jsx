@@ -43,19 +43,19 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <p className="text-gray-600 mb-8">
-              We'd love to hear from you! Whether you have a question about our content, want to provide feedback, or
-              are interested in working with us, please don't hesitate to reach out.
+              Halo semua ini adalah halaman berita
             </p>
-
+            <p> UTS PEMROGRAMAN WEB (SENIN,07/04/2025)</p>
+            <br/>
             <div className="space-y-6">
               <div className="flex items-start">
                 <MapPin className="h-6 w-6 text-blue-600 mr-3 mt-0.5" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Our Office</h3>
                   <p className="text-gray-600">
-                    Jalan Sudirman No. 123
+                  INSTITUT TEKNOLOGI SUMATERA
                     <br />
-                    Jakarta Pusat, 10220
+                    Lampung Selatan, Lampung
                     <br />
                     Indonesia
                   </p>
@@ -69,7 +69,7 @@ export default function ContactPage() {
                   <p className="text-gray-600">
                     +62 21 5555 6666
                     <br />
-                    Monday - Friday, 9am - 5pm WIB
+                    Senin - Jum'at, 7am - 3pm WIB
                   </p>
                 </div>
               </div>
@@ -79,9 +79,9 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
                   <p className="text-gray-600">
-                    info@beritakita.com
+                    info@yanews.com
                     <br />
-                    support@beritakita.com
+                    support@yanews.com
                   </p>
                 </div>
               </div>

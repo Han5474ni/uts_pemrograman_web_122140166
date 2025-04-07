@@ -52,7 +52,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <Newspaper className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold">BeritaKita</span>
+              <span className="ml-2 text-xl font-bold">YANEWS</span>
             </Link>
           </div>
 

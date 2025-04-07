@@ -9,20 +9,20 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Newspaper className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">BeritaKita</span>
+              <span className="ml-2 text-xl font-bold">YANEWS</span>
             </div>
             <p className="text-gray-400 mb-4">Delivering the latest and most relevant news from around the world.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://www.facebook.com/" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.twitter.com/" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.instagram.com/handayani_aja_" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.youtube.com/" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
@@ -95,22 +95,22 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-gray-400 mr-2 mt-0.5" />
-                <span className="text-gray-400">Jalan Sudirman No. 123, Jakarta Pusat, 10220, Indonesia</span>
+                <span className="text-gray-400">Way Huwi, Kecamatan Jati Agung, Lampung Selatan, Lampung</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-400 mr-2" />
-                <span className="text-gray-400">+62 21 5555 6666</span>
+                <span className="text-gray-400">+6289677889930</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-gray-400 mr-2" />
-                <span className="text-gray-400">info@beritakita.com</span>
+                <span className="text-gray-400">handayani.122140166@student.itera.ac.id</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} BeritaKita. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} YANEWS. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -16,65 +16,26 @@ export default function AboutPage() {
         </div>
 
         <div className="prose max-w-none">
-          <h2>Our Mission</h2>
+          <h2>Apa itu YaNews?</h2>
           <p>
-            At BeritaKita, our mission is to deliver accurate, timely, and relevant news to our readers. We believe in
-            the power of information to educate, inspire, and empower people to make informed decisions about the world
-            around them.
+          YaNews adalah sebuah portal berita interaktif yang dibuat sebagai bagian dari tugas Ujian Tengah Semester (UTS) Pemrograman Web ITERA. Tujuannya bukan cuma buat dapet nilai, 
+          tapi juga buat latihan membangun website modern dengan React JS.
           </p>
-
-          <h2>Our Story</h2>
-          <p>
-            Founded in 2023, BeritaKita began as a small project with a big vision: to create a news platform that
-            prioritizes quality journalism and user experience. What started as a passion project has grown into a
-            trusted source of news for thousands of readers.
-          </p>
-
-          <p>
-            Our team consists of experienced journalists, tech enthusiasts, and design experts who work together to
-            bring you the best news experience possible. We're constantly evolving and improving our platform based on
-            reader feedback and emerging technologies.
-          </p>
-
-          <h2>Our Values</h2>
-          <ul>
-            <li>
-              <strong>Accuracy:</strong> We verify all information before publishing and promptly correct any errors.
-            </li>
-            <li>
-              <strong>Independence:</strong> We maintain editorial independence and are not influenced by political or
-              commercial interests.
-            </li>
-            <li>
-              <strong>Fairness:</strong> We present multiple perspectives on complex issues and avoid bias.
-            </li>
-            <li>
-              <strong>Transparency:</strong> We are open about our sources, methods, and any limitations in our
-              reporting.
-            </li>
-            <li>
-              <strong>Respect:</strong> We respect the privacy and dignity of the people we report on and our readers.
-            </li>
-          </ul>
-
-          <h2>Our Coverage</h2>
-          <p>
-            BeritaKita covers a wide range of topics including politics, business, technology, health, sports,
-            entertainment, and more. We focus particularly on news related to Indonesia and Southeast Asia, but also
-            cover important global events that impact our readers.
-          </p>
-
-          <h2>Our Technology</h2>
-          <p>
-            We use cutting-edge web technologies to deliver a fast, responsive, and accessible news experience. Our
-            platform is built with Next.js and React, ensuring optimal performance across all devices. We source our
-            news through the NewsAPI, which gives us access to thousands of reliable news sources worldwide.
-          </p>
-
-          <p>
-            Thank you for choosing BeritaKita as your source for news and information. We're committed to serving you
-            with excellence and integrity.
-          </p>
+          <br />
+          <h2>Fitur-Fitur YaNews:</h2>
+          <li>🔍 Pencarian Berita: Pengguna bisa cari berita berdasarkan kata kunci</li>
+          <li>🗂️ Kategori Berita: Berita dikategorikan (misalnya: teknologi, kesehatan, hiburan, dll).</li>
+          <li>🛠️ Data Lokal: Semua berita diambil dari file db.json lokal, bukan dari API online.</li>
+          <br />
+          <h2>Tujuan Dibuatnya YaNews:</h2>
+          <li>Belajar cara kerja React JS dalam membangun UI.</li>
+          <li>Mempraktikkan konsep routing, state management, dan component-based design.</li>
+          <li>Melatih diri menggunakan tools modern seperti Tailwind CSS dan JSON Server.</li>
+          <li>Dan tentunya, sebagai bagian dari penilaian UTS 😄</li>
+          <br />
+          <h2>Kenapa Namanya YaNews?</h2>
+          <p>Karena "YaNews" terdengar simpel, catchy, dan langsung ngasih tahu kalau ini website berita. Kayak bilang, “ya, ini news!” 😄</p>
+          <br />
         </div>
       </div>
     </main>
